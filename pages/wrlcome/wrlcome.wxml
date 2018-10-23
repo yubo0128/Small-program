@@ -1,0 +1,7 @@
+<view>
+    <image src="/img/index.png"></image>
+    <text>hello </text>
+    <view>
+       <text>开启小程序之旅</text>
+    </view>
+</view>

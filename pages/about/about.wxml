@@ -1,0 +1,19 @@
+<view>
+    <navigator url='/pages/logs/logs' open-type='navigate' hover-class='nav-hover' class='nav-defo'>
+    <text class='info'>访问量{{count}}</text>
+   
+    </navigator>
+    <view>
+      <text class='info'>{{thisWeekm.name}}</text>
+       <text class='info'>{{thisWeekm.connent}}</text>
+    </view>
+
+   <swiper indicator-dots="{{true}}" interval="{{500}}">
+      <swiper-item>1111</swiper-item>
+      <swiper-item>222</swiper-item>
+      <swiper-item>333</swiper-item>
+      <swiper-item>444</swiper-item>
+      <swiper-item>1155511</swiper-item>
+   </swiper>
+
+</view>

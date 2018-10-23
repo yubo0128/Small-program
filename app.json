@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/posts/posts",
+    "pages/wrlcome/wrlcome",
+    "pages/about/about",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "个人程序",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": false
+  },
+  "tabBar":{
+      "list":[{
+          "text":"首页",
+          "pagePath":"pages/logs/logs",
+          "iconPath":"img/index.png",
+          "selectedIconPath":"img/index.png"
+      },
+      {
+        "text": "扫扫",
+        "pagePath": "pages/about/about",
+        "iconPath": "img/ss.png",
+        "selectedIconPath": "img/ss.png"
+    },
+    {
+        "text": "我的",
+        "pagePath": "pages/about/about",
+        "iconPath": "img/wd.png",
+        "selectedIconPath": "img/wd.png"
+    }]
+  }
+}

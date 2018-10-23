@@ -1,0 +1,21 @@
+<view>
+   <swiper class='swiper_banner' indicator-dots="true" autoplay="true">
+        <block wx:for="{{imgUrls}}" wx:key="unique">
+        <swiper-item><image src='{{item}}'></image></swiper-item>
+        </block>
+   </swiper>
+   <view>
+      <view>
+          <image src=''></image>
+          <text bindtap='onTap'>11111</text>
+      </view>
+        <image src=''></image>
+        <text></text>
+       <view>
+            <image src=''></image>
+            <text></text>
+            <image src=''></image>
+            <text></text>
+       </view>
+   </view>
+</view>
