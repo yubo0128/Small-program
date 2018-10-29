@@ -1,9 +1,13 @@
 {
   "pages":[
+    "pages/movies/movies",
     "pages/posts/posts",
     "pages/wrlcome/wrlcome",
     "pages/about/about",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/posts/posts-list/posts-list",
+    "pages/movies/more-movie/more-movie",
+    "pages/movies/movie-detail/movie-detail"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -20,14 +24,14 @@
           "selectedIconPath":"img/index.png"
       },
       {
-        "text": "扫扫",
-        "pagePath": "pages/about/about",
+        "text": "电影",
+        "pagePath": "pages/movies/movies",
         "iconPath": "img/ss.png",
         "selectedIconPath": "img/ss.png"
     },
     {
         "text": "我的",
-        "pagePath": "pages/about/about",
+        "pagePath": "pages/posts/posts",
         "iconPath": "img/wd.png",
         "selectedIconPath": "img/wd.png"
     }]

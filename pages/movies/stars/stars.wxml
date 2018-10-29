@@ -1,0 +1,17 @@
+<!--pages/stars/stars.wxml-->
+<template name="starsTemplate">
+   <view class='stars-container'>
+        <view class='stars'>
+             <block wx:for="{{stars}}" wx:for-item="i" wx:key="x">
+                <image wx:if="{{i}}" src='/img/dy/download.png'></image>
+                <image wx:else src='/img/dy/download-1.png'></image>
+             </block>
+                <!-- <image src='/img/dy/download.png'></image>
+                <image src='/img/dy/download-1.png'></image>
+                <image src='/img/dy/download-1.png'></image>
+                <image src='/img/dy/download-1.png'></image>
+                <image src='/img/dy/download-1.png'></image> -->
+        </view>
+        <text class='star-score'>{{average}}</text>
+   </view>
+</template>

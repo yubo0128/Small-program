@@ -44,5 +44,8 @@ App({
   },
   globalData: {
     userInfo: null
+  },
+  globalData:{
+      doubanBase:"http://t.yushu.im"
   }
 })

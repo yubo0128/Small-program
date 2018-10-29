@@ -1,3 +1,5 @@
+
+var postData=require("../../tasrdata.js");
 Page({
 
   /**
@@ -10,6 +12,12 @@ Page({
         "/img/banner/3.jpg",
         "/img/banner/4.jpg",
     ]
+  },
+  onPostTap:function(event){
+      let postid=event.currentTarget.dataset.postid;
+      wx.navigateTo({
+          url: 'posts-list/posts-list?id=' + postid,
+      })
   },
   onTap:function(){
       //有返回安检
@@ -26,7 +34,9 @@ Page({
    */
   onLoad: function (options) {
       console.log("onLoad");
-    //  this.setData({});
+      this.setData({
+          posts_key: postData.postList
+      });
   },
 
   /**
@@ -76,5 +86,8 @@ Page({
    */
   onShareAppMessage: function () {
     
+  },
+  oncks:function(event){
+      console.log(event);
   }
 })

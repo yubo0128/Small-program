@@ -1,0 +1,6 @@
+<template name="postItem">
+        <view>
+            <text bindtap='onTap'>{{id}}</text>
+            <text>{{title}}</text>
+        </view>
+</template>

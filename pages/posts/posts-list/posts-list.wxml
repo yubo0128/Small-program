@@ -1,0 +1,11 @@
+<view>
+ 这是测试数据
+  <text>{{postdata.content}}</text>
+  <text catchtap='onsjian'>获取</text>
+  <view>
+    <text catchtap='onshoreTap'>微信分享</text>
+  </view>
+  <view catchtap='onMusicTap'>
+     <text>音乐播放</text>
+  </view>
+</view>
